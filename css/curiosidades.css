@@ -1,0 +1,66 @@
+
+body{
+    background-color: crimson;
+}
+
+.a {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    border-radius: 20px;
+    background-color: black;
+    transition: .3s;
+    transition-delay: .2s;
+}
+
+.a:hover{
+    width: 400px;
+    transition-delay: .1s;
+}
+.a p{
+    color: aliceblue;
+    flex-direction: column;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 12px;
+}
+.a:hover p{
+    opacity: 1;
+    visibility: visible; 
+    transition-delay: .3s;
+}
+.b {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    border-radius: 20px;
+    background-color: black;
+    transition: .3s;
+    transition-delay: .2s;
+}
+
+.b:hover{
+    width: 400px;
+    transition-delay: .1s;
+}
+.b p{
+    color: aliceblue;
+    flex-direction: column;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 12px;
+}
+.b:hover p{
+    opacity: 1;
+    visibility: visible; 
+    transition-delay: .3s;
+}
+.cards{
+    display: flex;
+}
+
+.b{
+    margin-left: 60px;
+}
