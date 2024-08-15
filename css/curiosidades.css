@@ -1,0 +1,101 @@
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+header {
+    background-color: #000000;
+    border-bottom: 5px solid rgb(185, 14, 14);
+    padding: 7px;
+    position: relative;
+    height: 110px;
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header img {
+    margin-left: 27px;
+    width: 270px;
+    height: 130px;
+    margin-top: -20px;
+}
+
+header h1 {
+    margin-left: -830px;
+    margin-top: 28px;
+
+    font-family: "Abril Fatface", serif;
+    font-size: 50px;
+}
+strong{
+    color: rgb(134, 4, 4);
+    font-size: 30px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.anos_80 {
+    justify-content: center;
+    display: flex;
+    grid-column-gap: 30px;
+    height: 250px;
+}
+
+
+.Vecna {
+    justify-content: center;
+    display: flex;
+    grid-column-gap: 30px;
+    height: 250px;
+   }
+
+
+.Max {
+    justify-content: center;
+    display: flex;
+    grid-column-gap: 30px;
+    height: 250px;
+}
+
+.onze {
+    justify-content: center;
+    display: flex;
+    grid-column-gap: 30px;
+    height: 250px;
+}
+
+.Metallica {
+    justify-content: center;
+    display: flex;
+    grid-column-gap: 30px;
+    height: 250px;
+}
+
+.temp5 {
+    justify-content: center;
+    display: flex;
+    grid-column-gap: 30px;
+    height: 250px;
+}
+
+.elenco {
+    justify-content: center;
+    display: flex;
+    grid-column-gap: 30px;
+    height: 250px;
+}
+
