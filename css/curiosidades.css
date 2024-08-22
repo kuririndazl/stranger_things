@@ -1,101 +1,64 @@
-.abril-fatface-regular {
-    font-family: "Abril Fatface", serif;
-    font-weight: 400;
-    font-style: normal;
-  }  
-
-body {
-    background-color: #000000;
-    color: #ffffff;
-
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+body{
+    background-color: crimson;
 }
 
-
-header {
-    background-color: #000000;
-    border-bottom: 5px solid rgb(185, 14, 14);
-    padding: 7px;
+.a, .b, .c {
     position: relative;
-    height: 110px;
-    z-index: 0;
+    width: 20px;
+    height: 200px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    border-radius: 20px;
+    background-color: black;
+    transition: .3s;
+    transition-delay: .2s;
+    margin-left: 200px;
+}
+.a img, .b img, .c img {
+    border-radius: 15px;
+    
+}
+.a:hover, .b:hover, .c:hover{
+    width: 400px;
+    transition-delay: .1s;
 }
 
-header img {
-    margin-left: 27px;
-    width: 270px;
-    height: 130px;
-    margin-top: -20px;
+.a p, .b p, .c p{
+    color: aliceblue;
+    flex-direction: column;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 12px;
+}
+.a:hover p, .b:hover p, .c:hover p{
+    opacity: 1;
+    visibility: visible; 
+    transition-delay: .3s;
+}
+.a p, .b p, .c p{
+    font-size: 11px;
 }
 
-header h1 {
-    margin-left: -830px;
-    margin-top: 28px;
-
-    font-family: "Abril Fatface", serif;
-    font-size: 50px;
+.a h2,.b h2, .c h2{
+    color: aliceblue;
+    flex-direction: column;
+    opacity: 0;
+    visibility: hidden;
 }
-strong{
-    color: rgb(134, 4, 4);
-    font-size: 30px;
-}
-
-img {
-    border-radius: 10px;
+.a:hover h2, .b:hover h2, .c:hover h2{
+    opacity: 1;
+    visibility: visible; 
+    transition-delay: .3s;
+    
 }
 
-.anos_80 {
-    justify-content: center;
-    display: flex;
-    grid-column-gap: 30px;
-    height: 250px;
+.cards{
+    display:flex;
+    text-align: center;
+    margin-left: 290px;
+    margin-top: 50px;
 }
-
-
-.Vecna {
-    justify-content: center;
-    display: flex;
-    grid-column-gap: 30px;
-    height: 250px;
-   }
-
-
-.Max {
-    justify-content: center;
-    display: flex;
-    grid-column-gap: 30px;
-    height: 250px;
+h1{
+    text-align: center;
+    font-size: 35px;
+    padding: 3px;
 }
-
-.onze {
-    justify-content: center;
-    display: flex;
-    grid-column-gap: 30px;
-    height: 250px;
-}
-
-.Metallica {
-    justify-content: center;
-    display: flex;
-    grid-column-gap: 30px;
-    height: 250px;
-}
-
-.temp5 {
-    justify-content: center;
-    display: flex;
-    grid-column-gap: 30px;
-    height: 250px;
-}
-
-.elenco {
-    justify-content: center;
-    display: flex;
-    grid-column-gap: 30px;
-    height: 250px;
-}
-
